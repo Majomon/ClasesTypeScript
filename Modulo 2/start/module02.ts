@@ -2,8 +2,8 @@
    Lab start  */
 
 /*  EXERCISE 1
-    TODO: Modify the code to add types to the variable declarations. 
-    The resulting JavaScript should look the same as the original example when you're done. */
+TODO: Modify the code to add types to the variable declarations. 
+The resulting JavaScript should look the same as the original example when you're done. */
 
     let firstName:string;
     let lastName:string;
@@ -23,10 +23,10 @@
         console.log("My name is " + fullName + ", I'm " + age + ", and I'm not a citizen of the United Kingdom.");
     }
     
-    /* EXERCISE 2
-       TODO: You can use types to ensure operation outcomes. Run the code as is and then modify 
-       it to have strongly typed variables. Then, address any errors you find so that the result 
-       returned to a is 12. */
+/* EXERCISE 2
+TODO: You can use types to ensure operation outcomes. Run the code as is and then modify 
+it to have strongly typed variables. Then, address any errors you find so that the result 
+returned to a is 12. */
     
     let x:number;
     let y:number;
@@ -38,13 +38,17 @@
     
     console.log(a);
     
-        /* EXERCISE 3
-        TODO: In the following code, implement an enum type called Season that represents 
-        the constants "Fall", "Winter", "Spring", and "Summer". Then, update the function so 
-        you can pass in the season by referencing an item in the enum, for example 
-        Season.Fall, instead of the literal string "Fall". */
-        enum Season{
-            Fall="Fall",Winter="Winter",Spring="Spring",Summer="Summer"
+/* EXERCISE 3
+ TODO: In the following code, implement an enum type called Season that represents 
+the constants "Fall", "Winter", "Spring", and "Summer". Then, update the function so 
+ you can pass in the season by referencing an item in the enum, for example 
+Season.Fall, instead of the literal string "Fall". */
+
+enum Season{
+            Fall="Fall",
+            Winter="Winter",
+            Spring="Spring",
+            Summer="Summer"
         }
 
         function whichMonths(season:Season) {
@@ -72,8 +76,8 @@
         
         console.log(whichMonths(Season.Fall));
     
-    /* EXERCISE 4
-       TODO: Declare the array as the type to match the type of the items in the array. */
+/* EXERCISE 4
+TODO: Declare the array as the type to match the type of the items in the array. */
     
        let randomNumbers:number[]=[]; // Se declara como un array y comienza vacío
        let nextNumber;
